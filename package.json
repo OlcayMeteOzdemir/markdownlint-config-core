@@ -6,6 +6,8 @@
 	"scripts": {
 		"js-lint": "eslint **/*.{js,jsx,cjs,mjs,ts}",
 		"js-fix": "eslint --fix **/*.{js,jsx,cjs,mjs,ts}",
+		"md-lint": "markdownlint **/*.md",
+		"md-fix": "markdownlint --fix **/*.md",
 		"prettier-lint": "prettier --check **/*.{html,?(s)css,js,jsx,json,cjs,mjs,y?(a)ml}",
 		"prettier-fix": "prettier --write **/*.{html,?(s)css,js,jsx,json,cjs,mjs,y?(a)ml}"
 	},
@@ -27,7 +29,10 @@
 		"eslint": "^8.27.0",
 		"eslint-plugin-import": "^2.26.0",
 		"eslint-plugin-prettier": "^4.2.1",
+		"markdownlint-cli": "^0.32.2",
 		"prettier": "^2.7.1"
 	},
-	"peerDependencies": {}
+	"peerDependencies": {
+		"markdownlint-cli": "^0.32.2"
+	}
 }
