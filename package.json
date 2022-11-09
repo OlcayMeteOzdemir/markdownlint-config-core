@@ -5,7 +5,9 @@
 	"main": "index.json",
 	"scripts": {
 		"js-lint": "eslint **/*.{js,jsx,cjs,mjs,ts}",
-		"js-fix": "eslint --fix **/*.{js,jsx,cjs,mjs,ts}"
+		"js-fix": "eslint --fix **/*.{js,jsx,cjs,mjs,ts}",
+		"prettier-lint": "prettier --check **/*.{html,?(s)css,js,jsx,json,cjs,mjs,y?(a)ml}",
+		"prettier-fix": "prettier --write **/*.{html,?(s)css,js,jsx,json,cjs,mjs,y?(a)ml}"
 	},
 	"repository": {
 		"type": "git",
@@ -21,9 +23,11 @@
 	"homepage": "https://github.com/OlcayMeteOzdemir/markdownlint-config-core#readme",
 	"devDependencies": {
 		"@meteozdemir/eslint-config-core": "^1.0.0",
+		"@meteozdemir/prettier-config-core": "^1.0.0",
 		"eslint": "^8.27.0",
 		"eslint-plugin-import": "^2.26.0",
-		"eslint-plugin-prettier": "^4.2.1"
+		"eslint-plugin-prettier": "^4.2.1",
+		"prettier": "^2.7.1"
 	},
 	"peerDependencies": {}
 }
