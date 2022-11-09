@@ -9,7 +9,8 @@
 		"md-lint": "markdownlint **/*.md",
 		"md-fix": "markdownlint --fix **/*.md",
 		"prettier-lint": "prettier --check **/*.{html,?(s)css,js,jsx,json,cjs,mjs,y?(a)ml}",
-		"prettier-fix": "prettier --write **/*.{html,?(s)css,js,jsx,json,cjs,mjs,y?(a)ml}"
+		"prettier-fix": "prettier --write **/*.{html,?(s)css,js,jsx,json,cjs,mjs,y?(a)ml}",
+		"postinstall": "node ./scripts/postinstall.js"
 	},
 	"repository": {
 		"type": "git",
