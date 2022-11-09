@@ -1,0 +1,189 @@
+{
+	"_MD001": "Heading levels should only increment by one level at a time",
+	"heading-increment": true,
+
+	"_MD003": "Heading style",
+	"heading-style": {
+		"style": "atx"
+	},
+
+	"_MD004": "Unordered list style",
+	"ul-style": {
+		"style": "dash"
+	},
+
+	"_MD005": "Inconsistent indentation for list items at the same level",
+	"list-indent": true,
+
+	"_MD007": "Unordered list indentation",
+	"ul-indent": {
+		"indent": 2,
+		"start_indented": true,
+		"start_indent": 2
+	},
+
+	"_MD009": "Trailing spaces",
+	"no-trailing-spaces": {
+		"br_spaces": 0,
+		"list_item_empty_lines": false,
+		"strict": false
+	},
+
+	"_MD010": "Hard tabs",
+	"no-hard-tabs": {
+		"code_blocks": true,
+		"ignore_code_languages": [""],
+		"spaces_per_tab": 2
+	},
+
+	"_MD011": "Reversed link syntax",
+	"no-reversed-links": true,
+
+	"_MD012": "Multiple consecutive blank lines",
+	"no-multiple-blanks": {
+		"maximum": 1
+	},
+
+	"_MD013": "Line length",
+	"line-length": false,
+
+	"_MD014": "Dollar signs used before commands without showing output",
+	"commands-show-output": true,
+
+	"_MD018": "No space after hash on atx style heading",
+	"no-missing-space-atx": true,
+
+	"_MD019": "Multiple spaces after hash on atx style heading",
+	"no-multiple-space-atx": true,
+
+	"_MD020": "No space inside hashes on closed atx style heading",
+	"no-missing-space-closed-atx": true,
+
+	"_MD021": "Multiple spaces inside hashes on closed atx style heading",
+	"no-multiple-space-closed-atx": true,
+
+	"_MD022": "Headings should be surrounded by blank lines",
+	"blanks-around-headings": {
+		"lines_above": 1,
+		"lines_below": 1
+	},
+
+	"_MD023": "Headings must start at the beginning of the line",
+	"heading-start-left": true,
+
+	"_MD024": "Multiple headings with the same content",
+	"no-duplicate-heading": {
+		"siblings_only": false,
+		"allow_different_nesting": false
+	},
+
+	"_MD025": "Multiple top-level headings in the same document",
+	"single-title": false,
+
+	"_MD026": "Trailing punctuation in heading",
+	"no-trailing-punctuation": {
+		"punctuation": ".,;:!"
+	},
+
+	"_MD027": "Multiple spaces after blockquote symbol",
+	"no-multiple-space-blockquote": true,
+
+	"_MD028": "Blank line inside blockquote",
+	"no-blanks-blockquote": false,
+
+	"_MD029": "Ordered list item prefix",
+	"ol-prefix": {
+		"style": "one"
+	},
+
+	"_MD030": "Spaces after list markers",
+	"list-marker-space": {
+		"ul_single": 1,
+		"ol_single": 1,
+		"ul_multi": 1,
+		"ol_multi": 1
+	},
+
+	"_MD031": "Fenced code blocks should be surrounded by blank lines",
+	"blanks-around-fences": {
+		"list_items": false
+	},
+
+	"_MD032": "Lists should be surrounded by blank lines",
+	"blanks-around-lists": true,
+
+	"_MD033": "Inline HTML",
+	"no-inline-html": false,
+
+	"_MD034": "Bare URL used",
+	"no-bare-urls": true,
+
+	"_MD035": "Horizontal rule style",
+	"hr-style": {
+		"style": "---"
+	},
+
+	"_MD036": "Emphasis used instead of a heading",
+	"no-emphasis-as-heading": true,
+
+	"_MD037": "Spaces inside emphasis markers",
+	"no-space-in-emphasis": true,
+
+	"_MD038": "Spaces inside code span elements",
+	"no-space-in-code": true,
+
+	"_MD039": "Spaces inside link text",
+	"no-space-in-links": true,
+
+	"_MD040": "Fenced code blocks should have a language specified",
+	"fenced-code-language": true,
+
+	"_MD041": "First line in a file should be a top-level heading",
+	"first-line-heading": {
+		"level": 1
+	},
+
+	"_MD042": "No empty links",
+	"no-empty-links": true,
+
+	"_MD043": "Required heading structure",
+	"required-headings": false,
+
+	"_MD044": "Proper names should have the correct capitalization",
+	"proper-names": false,
+
+	"_MD045": "Images should have alternate text (alt text)",
+	"no-alt-text": true,
+
+	"_MD046": "Code block style",
+	"code-block-style": {
+		"style": "fenced"
+	},
+
+	"_MD047": "Files should end with a single newline character",
+	"single-trailing-newline": true,
+
+	"_MD048": "Code fence style",
+	"code-fence-style": {
+		"style": "backtick"
+	},
+
+	"_MD049": "Emphasis style should be consistent",
+	"emphasis-style": {
+		"style": "asterisk"
+	},
+
+	"_MD050": "Strong style should be consistent",
+	"strong-style": {
+		"style": "asterisk"
+	},
+
+	"_MD051": "Link fragments should be valid",
+	"link-fragments": false,
+
+	"_MD052": "Reference links and images should use a label that is defined",
+	"reference-links-images": false,
+
+	"_MD053": "Link and image reference definitions should be needed",
+	"link-image-reference-definitions": false
+}
