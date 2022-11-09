@@ -1,0 +1,21 @@
+{
+	"name": "@meteozdemir/markdownlint-config-core",
+	"version": "1.0.0",
+	"description": "Custom MarkdownLint settings as an extensible shared config.",
+	"main": "index.json",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/OlcayMeteOzdemir/markdownlint-config-core.git"
+	},
+	"keywords": [
+		"markdown",
+		"markdownlint",
+		"markdownlint-config"
+	],
+	"author": "Olcay Mete Ozdemir",
+	"license": "MIT",
+	"homepage": "https://github.com/OlcayMeteOzdemir/markdownlint-config-core#readme",
+	"devDependencies": {},
+	"peerDependencies": {}
+}
