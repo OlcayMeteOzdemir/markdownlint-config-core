@@ -26,7 +26,7 @@
 	"homepage": "https://github.com/OlcayMeteOzdemir/markdownlint-config-core#readme",
 	"devDependencies": {
 		"@meteozdemir/eslint-config-core": "^1.2.2",
-		"@meteozdemir/prettier-config-core": "^1.0.3",
+		"@meteozdemir/prettier-config-core": "^1.0.4",
 		"eslint": "^8.31.0",
 		"eslint-plugin-import": "^2.26.0",
 		"eslint-plugin-prettier": "^4.2.1",
